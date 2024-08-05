@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Example</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <h2 class = "title"><a href = "https://rapidapi.com/mksrinivasula5/api/soccer-news-live-api" target="_blank"><span>Soccer News API</span></a> Client Side Demo</h2>
+    <div class = "container">
+        <h4>Please give the API a couple seconds to process a switch</h4>   
+        <select onchange = "specificNewspaper()" id = "newspaperSelected">
+            <option value="0">Select Newspaper:</option>
+            <option value="nytimes">NY Times</option>
+            <option value="espn">ESPN</option>
+            <option value="apnews">AP News</option>
+            <option value="cbssports">CBS Sports</option>
+            <option value="bbc">BBC</option>
+            <option value="goal">Goal</option>
+            <option value="theguardian">The Guardian</option>
+            <option value="fifa">FIFA</option>
+            <option value="yahoo">Yahoo</option>
+            <option value="worldsoccer">World Soccer</option>
+        </select>
+
+
+        <div style = "border: none" id="soccer news"></div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
